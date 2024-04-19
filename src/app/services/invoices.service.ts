@@ -14,7 +14,7 @@ export class InvoicesService {
   ) { }
 
 
-  url : string = "http://localhost:3000/api/invoice";
+  url : string = "http://209.38.158.147:3000/api/invoice";
 
   uploadFile(file: File): Observable<any> {
     const formData = new FormData();
