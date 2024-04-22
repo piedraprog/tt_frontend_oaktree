@@ -15,7 +15,7 @@ export class InvoicesService {
 
 
   url : string = "https://drapie.dev/api/invoice";
-  // url : string = "146.190.42.18:3000/api/invoice";
+  // url : string = "http://localhost:3000/api/invoice/";
 
   uploadFile(file: File): Observable<any> {
     const formData = new FormData();

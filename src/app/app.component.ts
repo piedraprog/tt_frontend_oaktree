@@ -55,7 +55,7 @@ export class AppComponent {
           );
       } else {
         // Si la extensión no es .xlsx, mostrar un mensaje de error
-        console.error('Error: El archivo debe tener extensión .xlsx');
+        console.error('Error: El archivo debe tener un formato valido');
       }
     } else {
       // Maneja los errores
