@@ -1,2 +1,2 @@
-/apiredirect/* http://http://146.190.42.18:3000/api/ :splat 200
+/apiredirect/* http://http://146.190.42.18:3000/api/invoice/ :splat 200
 /* /index.html 200
